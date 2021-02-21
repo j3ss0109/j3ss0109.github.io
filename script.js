@@ -23,8 +23,8 @@ function homelink(){
     location.href="index.html";
 }
 
-function tastlink(){
-    location.href="tast.html";
+function tasklink(){
+    location.href="task.html";
 }
 
 function shoplink(){
