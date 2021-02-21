@@ -1,12 +1,7 @@
-/*css*/
+/*CSS*/
 
 
 
-
-/*html,body{
-    height: 100%;
-    width: 100%;
-}*/
 
 body{
     font-family: "微軟正黑體";
@@ -109,6 +104,13 @@ a{
     height: auto;
     padding: 12px;
     background-image: url("image\\list.png");
+    /*以下禁止鼠標選取*/
+    -moz-user-select: none; 
+    -o-user-select:none; 
+    -khtml-user-select:none; 
+    -webkit-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
 }
 
 .list:hover{
