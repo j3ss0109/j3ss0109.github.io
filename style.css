@@ -49,7 +49,7 @@ a{
 .main{
     margin: 0 auto;
     padding: 24px;
-    width: 900px;
+    width: 720px;
     top: 72px;
     position: relative;
     pointer-events: none;
@@ -58,10 +58,9 @@ a{
 .box{
     background-color: rgb(236, 236, 236);
     border-radius: 12px;
-    padding: 5%;
+    padding: 4%;
     height: auto;
     width: auto;
-    float: none;
     position: relative;
     text-align: center;
     font-size: x-large;
@@ -140,8 +139,8 @@ a{
 }
 
 .btn{
-    height: 256px;
-    width: 256px;
+    height: 206px;
+    width: 206px;
     background-image: url("image\\btn.png");
     position: relative;
     padding: 22px;
@@ -156,4 +155,9 @@ a{
     -webkit-user-select:none; 
     -ms-user-select:none; 
     user-select:none;
+}
+
+.btn:hover{
+    background-image: url("image\\hover-btn.png");
+    color: rgb(255, 255, 255);
 }
