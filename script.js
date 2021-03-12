@@ -19,6 +19,18 @@ function menulistclick(){
     }
 }
 
+$.ajax({
+	type:"get", //使用get方式
+	url: "task.json", //json文件相對於這個HTML的路徑
+	dataType:"json",
+	success:function(data) {
+		//data就是json數據
+	},
+	error:function() {
+		alert("!ERROR!");
+	}
+});
+
 function homelink(){
     location.href="index.html";
 }
